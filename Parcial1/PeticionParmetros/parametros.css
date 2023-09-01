@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(84, 131, 243);
+}
+
+#gif{
+border: 1px solid #off;
+padding: 70px 270px;
+}
+
+#header{
+   font-size: 48px;
+   text-align: center;
+   font-weight: 900;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#list,
+#send
+{
+    background-color: cadetblue;
+    font-weight: 700;
+}
+#result{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+

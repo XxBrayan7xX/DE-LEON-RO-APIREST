@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btnAzul">Pulsar</button>
+    <div id="Azul"></div>
+    <script type="module">
+        document.getElementById("btnAzul").addEventListener("click", function(){
+            import("./modulo.js")
+            .then(function(moduloes){
+                document.getElementById("Azul").textContent = moduloes.obtenerFrase()
+            })
+        })
+    </script>
+</body>
+</html>

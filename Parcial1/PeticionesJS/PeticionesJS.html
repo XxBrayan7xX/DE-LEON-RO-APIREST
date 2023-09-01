@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta >
+        <style>
+          table {
+              border-collapse: collapse;
+              width: 100%;
+          }
+          th, td {
+              border: 1px solid black;
+              padding: 8px;
+              text-align: left;
+          }
+      </style>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div id="usuario"></div>
+        <button id="btnPeticion">AsyncAwait</button>
+        <button id="btnPeticionFetchXMLHttpRequest">XMLHttpRequest</button>
+        <button id="btnPeticionFetchPromisse">Promise</button>
+        <button id = "btnAxios">Axios</button>
+        <button id = "btnJQuery">JQuery</button>
+
+        <table id="dataTable">
+          <thead>
+              <tr>
+                  <th>Latitud</th>
+                  <th>Longitud</th>
+                  <th>Tiempo</th>
+                  <th>Temperatura</th>
+              </tr>
+          </thead>
+          <tbody></tbody>
+      </table>
+
+        <script>
+document.getElementById("btnPeticion").addEventListener("click", async function(){
+    let response = await fetch("https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2023-08-04&end_date=2023-08-18&hourly=temperature_2m");
+    let data = await response.json();
+let relevantData = {
+time: data.hourly.time,
+temperature: data.hourly.temperature_2m,
+latitud: data.latitude,
+longitud: data.longitude,
+};
+const dataTable = document.getElementById('dataTable');
+                const tbody = dataTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                for (let i = 0; i < 6; i++) {
+                    const row = document.createElement('tr');
+                    const latitudeCell = document.createElement('td');
+                    latitudeCell.textContent = relevantData.latitud;
+                    const longitudCell = document.createElement('td');
+                    longitudCell.textContent = relevantData.longitud;
+                    const timeCell = document.createElement('td');
+                    timeCell.textContent = relevantData.time[i];
+                    const temperatureCell = document.createElement('td');
+                    temperatureCell.textContent = relevantData.temperature[i];
+
+                    row.appendChild(latitudeCell);
+                    row.appendChild(longitudCell)
+                    row.appendChild(timeCell);
+                    row.appendChild(temperatureCell);
+
+                    tbody.appendChild(row);
+                }
+
+  //  document.getElementById("usuario").innerText=data.results[8].hourly.time+' '+data.results[8].hourly.temperature_2m;
+   //este jala document.getElementById("usuario").innerHTML = JSON.stringify(relevantData, null, 2);
+   // document.getElementById("image").src=data.results[0].picture.medium;
+    console.log(data);
+})
+
+document.getElementById("btnPeticionFetchPromisse").addEventListener("click", function(){   
+    fetch("https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2023-08-04&end_date=2023-08-18&hourly=temperature_2m")
+    .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Error en la solicitud. Código de estado: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                  let relevantData = {
+time: data.hourly.time,
+temperature: data.hourly.temperature_2m,
+latitud: data.latitude,
+longitud: data.longitude,
+};
+const dataTable = document.getElementById('dataTable');
+                const tbody = dataTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                for (let i = 6; i < 11; i++) {
+                    const row = document.createElement('tr');
+                    const latitudeCell = document.createElement('td');
+                    latitudeCell.textContent = relevantData.latitud;
+                    const longitudCell = document.createElement('td');
+                    longitudCell.textContent = relevantData.longitud;
+                    const timeCell = document.createElement('td');
+                    timeCell.textContent = relevantData.time[i];
+                    const temperatureCell = document.createElement('td');
+                    temperatureCell.textContent = relevantData.temperature[i];
+
+                    row.appendChild(latitudeCell);
+                    row.appendChild(longitudCell)
+                    row.appendChild(timeCell);
+                    row.appendChild(temperatureCell);
+
+                    tbody.appendChild(row);
+                }
+                })
+                .catch(error => {
+                    console.error('Error al realizar la solicitud:', error.message);
+                });
+
+})
+
+
+document.getElementById("btnPeticionFetchXMLHttpRequest").addEventListener("click", function(){
+const xhr = new XMLHttpRequest();
+//xhr.withCredentials = true;
+xhr.open("GET", "https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2023-08-04&end_date=2023-08-18&hourly=temperature_2m");
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    var data=JSON.parse(xhr.responseText);
+    let relevantData = {
+time: data.hourly.time,
+temperature: data.hourly.temperature_2m,
+latitud: data.latitude,
+longitud: data.longitude,
+};
+const dataTable = document.getElementById('dataTable');
+                const tbody = dataTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                for (let i = 3; i < 9; i++) {
+                    const row = document.createElement('tr');
+                    const latitudeCell = document.createElement('td');
+                    latitudeCell.textContent = relevantData.latitud;
+                    const longitudCell = document.createElement('td');
+                    longitudCell.textContent = relevantData.longitud;
+                    const timeCell = document.createElement('td');
+                    timeCell.textContent = relevantData.time[i];
+                    const temperatureCell = document.createElement('td');
+                    temperatureCell.textContent = relevantData.temperature[i];
+
+                    row.appendChild(latitudeCell);
+                    row.appendChild(longitudCell)
+                    row.appendChild(timeCell);
+                    row.appendChild(temperatureCell);
+
+                    tbody.appendChild(row);
+                }
+   // document.getElementById("usuario").innerText=data.results[0].name.first+' '+data.results[0].name.last;
+    //document.getElementById("image").src=data.results[0].picture.medium;
+  }
+});
+xhr.send();
+})
+
+document.getElementById("btnAxios").addEventListener("click", function(){
+  axios.get('https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2023-08-04&end_date=2023-08-18&hourly=temperature_2m')
+                .then(response => {
+                    const data = response.data;
+                    let relevantData = {
+time: data.hourly.time,
+temperature: data.hourly.temperature_2m,
+latitud: data.latitude,
+longitud: data.longitude,
+};
+const dataTable = document.getElementById('dataTable');
+                const tbody = dataTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                for (let i = 9; i < 14; i++) {
+                    const row = document.createElement('tr');
+                    const latitudeCell = document.createElement('td');
+                    latitudeCell.textContent = relevantData.latitud;
+                    const longitudCell = document.createElement('td');
+                    longitudCell.textContent = relevantData.longitud;
+                    const timeCell = document.createElement('td');
+                    timeCell.textContent = relevantData.time[i];
+                    const temperatureCell = document.createElement('td');
+                    temperatureCell.textContent = relevantData.temperature[i];
+
+                    row.appendChild(latitudeCell);
+                    row.appendChild(longitudCell)
+                    row.appendChild(timeCell);
+                    row.appendChild(temperatureCell);
+
+                    tbody.appendChild(row);
+                }
+                });
+})
+
+$("#btnJQuery").click(function(){  
+  const enlace = 
+  {
+     url:('https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2023-08-04&end_date=2023-08-18&hourly=temperature_2m'),
+     method: "GET"
+  }
+                $.ajax(enlace).done(function(data){
+                  const relevantData = {
+time: data.hourly.time,
+temperature: data.hourly.temperature_2m,
+latitud: data.latitude,
+longitud: data.longitude,
+};
+const dataTable = document.getElementById('dataTable');
+                const tbody = dataTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                for (let i = 12; i < 18; i++) {
+                    const row = document.createElement('tr');
+                    const latitudeCell = document.createElement('td');
+                    latitudeCell.textContent = relevantData.latitud;
+                    const longitudCell = document.createElement('td');
+                    longitudCell.textContent = relevantData.longitud;
+                    const timeCell = document.createElement('td');
+                    timeCell.textContent = relevantData.time[i];
+                    const temperatureCell = document.createElement('td');
+                    temperatureCell.textContent = relevantData.temperature[i];
+
+                    row.appendChild(latitudeCell);
+                    row.appendChild(longitudCell)
+                    row.appendChild(timeCell);
+                    row.appendChild(temperatureCell);
+
+                    tbody.appendChild(row);
+                };
+                })
+            })
+
+        </script>
+    </body>
+</html>

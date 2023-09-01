@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="parametros.css" />
+    </head>
+<body>
+    <div id="header">Chuck Norris</div>
+    <img id = "gif" src = "https://th.bing.com/th/id/R.68a99dfc1674add1099a4929d6eb4cae?rik=XcmTbNvcEuEKhQ&riu=http%3a%2f%2fgifimage.net%2fwp-content%2fuploads%2f2017%2f07%2fchuck-norris-thumbs-up-gif-1.gif&ehk=qwdGaMmh%2fqNs%2fs02YLNjKABdXCWrHKQ%2fngYwC7eQKzA%3d&risl=&pid=ImgRaw&r=0">
+    
+    <label for = "list">Select a category</label>
+    <select id="list"></select>
+    <button id="send">Send</button>
+    <div id = "result"></div>
+<script>
+    window.onload = () => {
+        fetch("http://api.chucknorris.io/jokes/categories")
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(category => {
+                const option = document.createElement("option");
+                option.value = category;
+                option.text = category;
+                document.getElementById("list").appendChild(option);
+            });
+        });
+    };
+    document.getElementById("send").addEventListener("click", () => {
+        fetch(`http://api.chucknorris.io/jokes/random?category=${document.getElementById("list").value}`)
+        .then(response => response.json())
+        .then(data => {
+                document.getElementById("result").innerHTML = `<p>${data.value}</p>`;
+        })
+        .catch(error => {
+            console.error("Error fetching Chuck Norris joke:", error);
+        });
+    });
+</script> 
+</body>
+</html>
