@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "77fea7f5-16a3-43e7-9c7c-90c7e47ca943",
+        "colId": "history",
+        "created": "2023-09-19T03:27:29.964Z",
+        "modified": "2023-09-19T03:27:29.964Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "json",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "content-type",
+                    "value": "application/json; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "475"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"1db-iMSboUVVErcZwMtTWht1bqwD/lk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Tue, 19 Sep 2023 03:27:29 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "application/json; charset=utf-8",
+            "contentLength": "475 Bytes",
+            "responseTimeText": "209 ms",
+            "responseTime": 209,
+            "responseSize": 475
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    }
+]

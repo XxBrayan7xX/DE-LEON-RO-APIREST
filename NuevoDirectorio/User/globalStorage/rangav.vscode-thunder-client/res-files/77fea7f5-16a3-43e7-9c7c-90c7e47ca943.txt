@@ -1,0 +1,44 @@
+[
+  {
+    "matricula": 1,
+    "nombre": "jjjjj",
+    "semestre": 4,
+    "carrera": "PY"
+  },
+  {
+    "matricula": 19100001,
+    "nombre": "Pedro",
+    "semestre": 3,
+    "carrera": "ISC"
+  },
+  {
+    "matricula": 19100002,
+    "nombre": "Pancho",
+    "semestre": 1,
+    "carrera": "ISC"
+  },
+  {
+    "matricula": 19100003,
+    "nombre": "Pita",
+    "semestre": 5,
+    "carrera": "ISC"
+  },
+  {
+    "matricula": 19100166,
+    "nombre": "Brayan",
+    "semestre": 9,
+    "carrera": "ISC"
+  },
+  {
+    "matricula": 19100176,
+    "nombre": "Daniel",
+    "semestre": 7,
+    "carrera": "II"
+  },
+  {
+    "matricula": 20100777,
+    "nombre": "Juan",
+    "semestre": 5,
+    "carrera": "GE"
+  }
+]

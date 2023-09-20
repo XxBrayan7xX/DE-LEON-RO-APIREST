@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/gridjs@^1.0.0/dist/gridjs.production.min.js"></script>
+    <div id="tabla-container"></div>
+    <div id="tabla-container"></div>
+
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        fetch('data.json') // Cargar el archivo JSON
+          .then(response => response.json()) // Convertir la respuesta a JSON
+          .then(data => {
+            const columns = Object.keys(data[0]); // Obtener las columnas del primer objeto en el JSON
+            new gridjs.Grid({
+              columns: columns, // Utilizar las columnas del JSON
+              data: data.map(obj => Object.values(obj)), // Utilizar los datos del JSON
+            }).render(document.getElementById('tabla-container'));
+          })
+          .catch(error => console.error('Error:', error));
+      });
+    </script> -->
+    <div id="tabla-container"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2023-08-30&end_date=2023-09-13&hourly=temperature_2m') // Reemplaza 'URL_DE_TU_API' con la URL de tu API
+      .then(response => response.json()) // Convertir la respuesta a JSON
+      .then(data => {
+        // Asumiendo que la API devuelve un arreglo de objetos JSON
+        const columns = Object.keys(data[0]); // Obtener las columnas del primer objeto en la respuesta
+
+        new gridjs.Grid({
+          columns: columns, // Utilizar las columnas de la respuesta de la API
+          data: data.map(obj => Object.values(obj)), // Utilizar los datos de la respuesta de la API
+        }).render(document.getElementById('tabla-container'));
+      })
+      .catch(error => console.error('Error:', error));
+  });
+</script>
+<script>
+    new gridjs.Grid
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+listas = [[],[],[],[],[],[],[],[],[],[]]
+# for i in listas:
+#     listas[0].append()
+x = 0
+for l in listas:
+    for l2 in listas:
+        x+=1
+        listas[l][l2] = x
+for l in listas:
+    for l2 in listas:   
+        print(listas[l,l2])

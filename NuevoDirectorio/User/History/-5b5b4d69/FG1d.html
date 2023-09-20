@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/gridjs@^1.0.0/dist/gridjs.production.min.js"></script>
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        fetch('data.json') // Cargar el archivo JSON
+          .then(response => response.json()) // Convertir la respuesta a JSON
+          .then(data => {
+            const columns = Object.keys(data[0]); // Obtener las columnas del primer objeto en el JSON
+            new gridjs.Grid({
+              columns: columns, // Utilizar las columnas del JSON
+              data: data.map(obj => Object.values(obj)), // Utilizar los datos del JSON
+            }).render(document.getElementById('tabla-container'));
+          })
+          .catch(error => console.error('Error:', error));
+      });
+    </script> -->
+    <div id="tabla-container"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('http://localhost:8081/usuarios') // Reemplaza 'URL_DE_TU_API' con la URL de tu API
+      .then(response => response.json()) // Convertir la respuesta a JSON
+      .then(data => {
+        // Asumiendo que la API devuelve un arreglo de objetos JSON
+        const columns = Object.keys(data[0]); // Obtener las columnas del primer objeto en la respuesta
+
+        new gridjs.Grid({
+          columns: columns, // Utilizar las columnas de la respuesta de la API
+          data: data.map(obj => Object.values(obj)), // Utilizar los datos de la respuesta de la API
+          sort:true,
+        }).render(document.getElementById('tabla-container'));
+      })
+      .catch(error => console.error('Error:', error));
+  });
+</script>
+
+
+    
+</body>
+</html>
