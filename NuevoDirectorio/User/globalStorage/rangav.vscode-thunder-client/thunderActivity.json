@@ -18,13 +18,17 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:8081/usuarios",
-        "url": "http://localhost:8081/usuarios",
+        "url": "https://api.github.com/users/XxBrayan7xX/repos",
         "method": "GET",
         "sortNum": 0,
         "created": "2023-09-14T03:56:47.992Z",
-        "modified": "2023-09-14T03:56:47.992Z",
+        "modified": "2023-09-22T13:38:53.046Z",
         "headers": [],
         "params": [],
+        "auth": {
+            "type": "bearer",
+            "bearer": "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"
+        },
         "tests": []
     },
     {
@@ -39,6 +43,52 @@
         "modified": "2023-09-18T18:56:06.764Z",
         "headers": [],
         "params": [],
+        "tests": []
+    },
+    {
+        "_id": "8516ac41-6671-4ae7-a7df-8b4100f7d548",
+        "colId": "history",
+        "containerId": "",
+        "name": "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",
+        "url": "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",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-09-21T13:19:05.955Z",
+        "modified": "2023-09-21T13:19:05.955Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "d21d920c-535b-412b-8177-e757cc20217c",
+        "colId": "history",
+        "containerId": "",
+        "name": "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",
+        "url": "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",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-09-21T13:21:53.464Z",
+        "modified": "2023-09-21T13:21:53.464Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "379bda03-b0b0-43e2-a993-0c28572a25a6",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://api.github.com/users/XxBrayan7xX/repos",
+        "url": "https://api.github.com/users/XxBrayan7xX/repos",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-09-21T13:38:59.319Z",
+        "modified": "2023-09-21T13:38:59.319Z",
+        "headers": [],
+        "params": [],
+        "auth": {
+            "type": "bearer",
+            "bearer": "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"
+        },
         "tests": []
     }
 ]

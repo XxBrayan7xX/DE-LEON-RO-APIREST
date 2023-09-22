@@ -1,9 +1,1713 @@
 [
     {
-        "_id": "77fea7f5-16a3-43e7-9c7c-90c7e47ca943",
+        "_id": "baa3dd9c-8d4d-47ff-9d40-736b51a05d01",
         "colId": "history",
-        "created": "2023-09-19T03:27:29.964Z",
-        "modified": "2023-09-19T03:27:29.964Z",
+        "created": "2023-09-22T13:17:44.461Z",
+        "modified": "2023-09-22T13:38:53.055Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "json",
+            "headers": [
+                {
+                    "name": "server",
+                    "value": "GitHub.com"
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:38:53 GMT"
+                },
+                {
+                    "name": "content-type",
+                    "value": "application/json; charset=utf-8"
+                },
+                {
+                    "name": "transfer-encoding",
+                    "value": "chunked"
+                },
+                {
+                    "name": "cache-control",
+                    "value": "private, max-age=60, s-maxage=60"
+                },
+                {
+                    "name": "vary",
+                    "value": "Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"46b0d73c85254808e44b4ca62098606c1ec409055b252ddba0e6c07fde5bbd8f\""
+                },
+                {
+                    "name": "x-oauth-scopes",
+                    "value": "repo"
+                },
+                {
+                    "name": "x-accepted-oauth-scopes",
+                    "value": ""
+                },
+                {
+                    "name": "github-authentication-token-expiration",
+                    "value": "2023-10-21 13:21:32 UTC"
+                },
+                {
+                    "name": "x-github-media-type",
+                    "value": "github.v3; format=json"
+                },
+                {
+                    "name": "x-github-api-version-selected",
+                    "value": "2022-11-28"
+                },
+                {
+                    "name": "x-ratelimit-limit",
+                    "value": "5000"
+                },
+                {
+                    "name": "x-ratelimit-remaining",
+                    "value": "4999"
+                },
+                {
+                    "name": "x-ratelimit-reset",
+                    "value": "1695393533"
+                },
+                {
+                    "name": "x-ratelimit-used",
+                    "value": "1"
+                },
+                {
+                    "name": "x-ratelimit-resource",
+                    "value": "core"
+                },
+                {
+                    "name": "access-control-expose-headers",
+                    "value": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "strict-transport-security",
+                    "value": "max-age=31536000; includeSubdomains; preload"
+                },
+                {
+                    "name": "x-frame-options",
+                    "value": "deny"
+                },
+                {
+                    "name": "x-content-type-options",
+                    "value": "nosniff"
+                },
+                {
+                    "name": "x-xss-protection",
+                    "value": "0"
+                },
+                {
+                    "name": "referrer-policy",
+                    "value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+                },
+                {
+                    "name": "content-security-policy",
+                    "value": "default-src 'none'"
+                },
+                {
+                    "name": "content-encoding",
+                    "value": "gzip"
+                },
+                {
+                    "name": "x-github-request-id",
+                    "value": "34A4:3BE2:C50E3A:1946620:650D98EC"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "https://api.github.com/users/XxBrayan7xX/repos",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "application/json; charset=utf-8",
+            "contentLength": "30.43 KB",
+            "responseTimeText": "624 ms",
+            "responseTime": 624,
+            "responseSize": 31164
+        },
+        "requestInfo": {
+            "reqUrl": "https://api.github.com/users/XxBrayan7xX/repos",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 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"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "791e0df2-a402-4b26-a906-ca2d84bb7f08",
+        "colId": "history",
+        "created": "2023-09-22T13:27:09.725Z",
+        "modified": "2023-09-22T13:27:09.725Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:27:09 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "16 ms",
+            "responseTime": 16,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "0aec580f-0ca1-429a-b470-7cedd21ce724",
+        "colId": "history",
+        "created": "2023-09-22T13:29:05.701Z",
+        "modified": "2023-09-22T13:29:05.701Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:29:05 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "6 ms",
+            "responseTime": 6,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "3493d38d-118a-4e20-9382-dede2a0c3e79",
+        "colId": "history",
+        "created": "2023-09-22T13:29:07.119Z",
+        "modified": "2023-09-22T13:29:07.119Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:29:07 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "4 ms",
+            "responseTime": 4,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "2dadc902-993d-4789-868b-925ddf0f7f88",
+        "colId": "history",
+        "created": "2023-09-22T13:29:08.231Z",
+        "modified": "2023-09-22T13:29:08.231Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:29:08 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "6 ms",
+            "responseTime": 6,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "4cb00ada-3d3a-4464-b711-75889635ef5e",
+        "colId": "history",
+        "created": "2023-09-22T13:29:08.926Z",
+        "modified": "2023-09-22T13:29:08.926Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:29:08 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "5 ms",
+            "responseTime": 5,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "68bed93b-6db5-4a96-89d8-13db3d349f6a",
+        "colId": "history",
+        "created": "2023-09-22T13:29:09.908Z",
+        "modified": "2023-09-22T13:29:09.908Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:29:09 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "4 ms",
+            "responseTime": 4,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "e378d2be-6178-444f-a467-60c6955afa0d",
+        "colId": "history",
+        "created": "2023-09-22T13:29:10.634Z",
+        "modified": "2023-09-22T13:29:10.634Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "17"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"11-Ct8M9LxrRqQimlxmKpkXrpEpZEM\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:29:10 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "17 Bytes",
+            "responseTimeText": "4 ms",
+            "responseTime": 4,
+            "responseSize": 17
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "dd23bf0f-045c-416c-a896-6b9d22698051",
+        "colId": "history",
+        "created": "2023-09-22T13:32:46.180Z",
+        "modified": "2023-09-22T13:32:46.180Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "e27a95ac-3a67-41f4-ba6b-2265c9116fc8",
+        "colId": "history",
+        "created": "2023-09-22T13:32:53.211Z",
+        "modified": "2023-09-22T13:32:53.211Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "645119b2-5506-42ba-a68a-13bce12397f8",
+        "colId": "history",
+        "created": "2023-09-22T13:32:54.012Z",
+        "modified": "2023-09-22T13:32:54.012Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "96e082c4-1bbf-4df1-9658-966eae745b61",
+        "colId": "history",
+        "created": "2023-09-22T13:32:55.893Z",
+        "modified": "2023-09-22T13:32:55.893Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "9b4a84a7-30b8-4477-97c4-9ae54e8f0552",
+        "colId": "history",
+        "created": "2023-09-22T13:33:24.959Z",
+        "modified": "2023-09-22T13:33:24.959Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "9906aea1-0e21-48cc-8eb0-9aba3b9ef495",
+        "colId": "history",
+        "created": "2023-09-22T13:33:25.673Z",
+        "modified": "2023-09-22T13:33:25.673Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "ece5bfdd-3b54-4cea-8d82-ce6da8bae1e3",
+        "colId": "history",
+        "created": "2023-09-22T13:33:25.839Z",
+        "modified": "2023-09-22T13:33:25.839Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "6e46573f-8363-45a0-ad19-9b18e75b5d6f",
+        "colId": "history",
+        "created": "2023-09-22T13:33:26.121Z",
+        "modified": "2023-09-22T13:33:26.121Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "51d04650-90a0-4a00-a121-2ed1195ff1f0",
+        "colId": "history",
+        "created": "2023-09-22T13:33:31.878Z",
+        "modified": "2023-09-22T13:33:31.878Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "b1776c02-b5d4-4d32-9e29-812e1a7f7ba5",
+        "colId": "history",
+        "created": "2023-09-22T13:33:32.177Z",
+        "modified": "2023-09-22T13:33:32.177Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "c268d08c-da31-4a59-bd9d-9cf5857bc675",
+        "colId": "history",
+        "created": "2023-09-22T13:33:32.393Z",
+        "modified": "2023-09-22T13:33:32.393Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "b9c46075-a747-4056-901a-ee28264a8237",
+        "colId": "history",
+        "created": "2023-09-22T13:33:32.583Z",
+        "modified": "2023-09-22T13:33:32.583Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "7b52712d-e3cf-4933-89ff-5d7d5ae439a4",
+        "colId": "history",
+        "created": "2023-09-22T13:33:32.762Z",
+        "modified": "2023-09-22T13:33:32.762Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 0,
+            "statusText": "",
+            "contentType": "",
+            "contentLength": "",
+            "responseTimeText": "0 ms",
+            "responseTime": 0,
+            "responseSize": 0,
+            "errorMessage": "Connection was refused by the server."
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "3d29e73a-ed16-4277-9237-d1a614c63222",
+        "colId": "history",
+        "created": "2023-09-22T13:37:19.186Z",
+        "modified": "2023-09-22T13:37:19.186Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:19 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "17 ms",
+            "responseTime": 17,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "572ced70-8959-49d4-8e86-76bef048bee6",
+        "colId": "history",
+        "created": "2023-09-22T13:37:20.191Z",
+        "modified": "2023-09-22T13:37:20.191Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:20 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "5 ms",
+            "responseTime": 5,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "616e398d-8734-42d9-94c8-3da55208c3f2",
+        "colId": "history",
+        "created": "2023-09-22T13:37:22.061Z",
+        "modified": "2023-09-22T13:37:22.061Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:22 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "4 ms",
+            "responseTime": 4,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "83a0a89b-43ae-47e3-ada0-c7aab82d0315",
+        "colId": "history",
+        "created": "2023-09-22T13:37:36.254Z",
+        "modified": "2023-09-22T13:37:36.254Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:36 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "4 ms",
+            "responseTime": 4,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "732461a9-38ec-4c8f-8146-033b060ce96a",
+        "colId": "history",
+        "created": "2023-09-22T13:37:36.977Z",
+        "modified": "2023-09-22T13:37:36.977Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:36 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "6 ms",
+            "responseTime": 6,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "036e91a9-bf8b-4932-b275-ba2833b353ed",
+        "colId": "history",
+        "created": "2023-09-22T13:37:37.148Z",
+        "modified": "2023-09-22T13:37:37.148Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:37 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "3 ms",
+            "responseTime": 3,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "50b7b442-013c-4075-aa78-72841a359da3",
+        "colId": "history",
+        "created": "2023-09-22T13:37:37.322Z",
+        "modified": "2023-09-22T13:37:37.322Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "0"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 22 Sep 2023 13:37:37 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8081/usuarios",
+            "status": 401,
+            "statusText": "Unauthorized",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "0 Bytes",
+            "responseTimeText": "3 ms",
+            "responseTime": 3,
+            "responseSize": 0
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8081/usuarios",
+            "headers": [
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer access_token"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "5fe8cf49-cae9-48d5-8496-34954596dfd9",
+        "colId": "history",
+        "created": "2023-09-22T13:38:08.544Z",
+        "modified": "2023-09-22T13:38:08.544Z",
         "response": {
             "responseText": "",
             "filePath": "",
@@ -12,6 +1716,10 @@
                 {
                     "name": "x-powered-by",
                     "value": "Express"
+                },
+                {
+                    "name": "access-control-allow-origin",
+                    "value": "*"
                 },
                 {
                     "name": "content-type",
@@ -27,7 +1735,7 @@
                 },
                 {
                     "name": "date",
-                    "value": "Tue, 19 Sep 2023 03:27:29 GMT"
+                    "value": "Fri, 22 Sep 2023 13:38:08 GMT"
                 },
                 {
                     "name": "connection",
@@ -41,8 +1749,8 @@
             "statusText": "OK",
             "contentType": "application/json; charset=utf-8",
             "contentLength": "475 Bytes",
-            "responseTimeText": "209 ms",
-            "responseTime": 209,
+            "responseTimeText": "108 ms",
+            "responseTime": 108,
             "responseSize": 475
         },
         "requestInfo": {
@@ -59,6 +1767,10 @@
                 {
                     "name": "User-Agent",
                     "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Basic YWRtaW46MTIzNA=="
                 }
             ]
         }
