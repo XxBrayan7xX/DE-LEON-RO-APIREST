@@ -4,11 +4,11 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:8081/usuario",
-        "url": "http://localhost:8081/usuario",
-        "method": "GET",
+        "url": "http://localhost:8081/usuarios",
+        "method": "POST",
         "sortNum": 0,
         "created": "2023-09-14T03:56:12.624Z",
-        "modified": "2023-09-14T03:56:12.624Z",
+        "modified": "2023-09-29T13:49:31.770Z",
         "headers": [],
         "params": [],
         "tests": []
@@ -18,17 +18,13 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:8081/usuarios",
-        "url": "https://api.github.com/users/XxBrayan7xX/repos",
+        "url": "http://localhost:3307/usuarios",
         "method": "GET",
         "sortNum": 0,
         "created": "2023-09-14T03:56:47.992Z",
-        "modified": "2023-09-22T13:38:53.046Z",
+        "modified": "2023-09-29T13:40:48.063Z",
         "headers": [],
         "params": [],
-        "auth": {
-            "type": "bearer",
-            "bearer": "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"
-        },
         "tests": []
     },
     {

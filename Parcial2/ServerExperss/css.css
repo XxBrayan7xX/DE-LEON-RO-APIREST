@@ -1,0 +1,54 @@
+/* Estilo para el formulario */
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para las etiquetas de los campos */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para los campos de entrada de texto */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para el mensaje de éxito o error */
+  .message {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para los errores de validación */
+  .error {
+    color: #f00;
+  }
+  
+  /* Estilo para los campos enfocados */
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  

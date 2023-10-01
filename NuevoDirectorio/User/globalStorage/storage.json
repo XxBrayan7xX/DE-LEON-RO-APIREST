@@ -4,8 +4,8 @@
         "workspaces": {
             "file:///c%3A/Users/mayra/Documents/9no%20Semestre/API%20REST/DELEONRO": "__default__profile__",
             "file:///c%3A/wamp64/www/DELEONRO/Parcial2": "__default__profile__",
-            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma": "__default__profile__",
-            "file:///c%3A/wamp64/www/DELEONRO": "__default__profile__"
+            "file:///c%3A/wamp64/www/DELEONRO": "__default__profile__",
+            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -16,9 +16,6 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma"
-            },
-            {
-                "folderUri": "file:///c%3A/wamp64/www/DELEONRO"
             }
         ],
         "emptyWindows": []
@@ -26,14 +23,14 @@
     "windowControlHeight": 35,
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/wamp64/www/DELEONRO",
-            "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\b6a8cbfbdb4ef682f4debf448a6ee9f7",
+            "folder": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma",
+            "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\8cb333dd8a9965817007e4d94fde9a8d",
             "uiState": {
                 "mode": 0,
-                "x": 280,
-                "y": 92,
-                "width": 1040,
-                "height": 768
+                "x": 792,
+                "y": 40,
+                "width": 799,
+                "height": 824
             }
         },
         "openedWindows": []
@@ -58,7 +55,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
