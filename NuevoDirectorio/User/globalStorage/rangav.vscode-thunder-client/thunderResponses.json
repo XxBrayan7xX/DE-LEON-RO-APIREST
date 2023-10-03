@@ -1,49 +1,9 @@
 [
     {
-        "_id": "baa3dd9c-8d4d-47ff-9d40-736b51a05d01",
-        "colId": "history",
-        "created": "2023-09-29T13:39:11.699Z",
-        "modified": "2023-09-29T13:40:48.067Z",
-        "response": {
-            "responseText": "",
-            "filePath": "",
-            "type": "text",
-            "headers": [],
-            "cookies": [],
-            "testResults": [],
-            "url": "http://localhost:3307/usuarios",
-            "status": 0,
-            "statusText": "",
-            "contentType": "",
-            "contentLength": "",
-            "responseTimeText": "0 ms",
-            "responseTime": 0,
-            "responseSize": 0,
-            "errorMessage": "Parse Error: Expected HTTP/"
-        },
-        "requestInfo": {
-            "reqUrl": "http://localhost:3307/usuarios",
-            "headers": [
-                {
-                    "name": "accept-encoding",
-                    "value": "gzip, deflate, br"
-                },
-                {
-                    "name": "Accept",
-                    "value": "*/*"
-                },
-                {
-                    "name": "User-Agent",
-                    "value": "Thunder Client (https://www.thunderclient.com)"
-                }
-            ]
-        }
-    },
-    {
         "_id": "cfef79fb-0f3d-4f4a-a43a-a0dfdf69259b",
         "colId": "history",
-        "created": "2023-09-29T13:39:48.715Z",
-        "modified": "2023-09-29T13:49:31.773Z",
+        "created": "2023-10-03T13:39:25.741Z",
+        "modified": "2023-10-03T13:43:03.424Z",
         "response": {
             "responseText": "",
             "filePath": "",
@@ -54,24 +14,20 @@
                     "value": "Express"
                 },
                 {
-                    "name": "access-control-allow-origin",
-                    "value": "*"
-                },
-                {
                     "name": "content-type",
                     "value": "application/json; charset=utf-8"
                 },
                 {
                     "name": "content-length",
-                    "value": "2"
+                    "value": "96"
                 },
                 {
                     "name": "etag",
-                    "value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+                    "value": "W/\"60-eqIlFoFU829LWqlGDyT6E+I0GHc\""
                 },
                 {
                     "name": "date",
-                    "value": "Fri, 29 Sep 2023 13:49:31 GMT"
+                    "value": "Tue, 03 Oct 2023 13:43:03 GMT"
                 },
                 {
                     "name": "connection",
@@ -80,18 +36,22 @@
             ],
             "cookies": [],
             "testResults": [],
-            "url": "http://localhost:8081/usuarios",
+            "url": "http://localhost:8081/usuario",
             "status": 200,
             "statusText": "OK",
             "contentType": "application/json; charset=utf-8",
-            "contentLength": "2 Bytes",
-            "responseTimeText": "21 ms",
-            "responseTime": 21,
-            "responseSize": 2
+            "contentLength": "96 Bytes",
+            "responseTimeText": "8 ms",
+            "responseTime": 8,
+            "responseSize": 96
         },
         "requestInfo": {
-            "reqUrl": "http://localhost:8081/usuarios",
+            "reqUrl": "http://localhost:8081/usuario",
             "headers": [
+                {
+                    "name": "content-length",
+                    "value": "75"
+                },
                 {
                     "name": "accept-encoding",
                     "value": "gzip, deflate, br"
@@ -103,8 +63,14 @@
                 {
                     "name": "User-Agent",
                     "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
                 }
-            ]
+            ],
+            "body": "{\n  \"nombre\":\"Brayan\",\n  \"apellido\":\"De Leon\",\n  \"edad\":21,\n  \"correo\":21\n}",
+            "type": "json"
         }
     }
 ]

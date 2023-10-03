@@ -4,13 +4,18 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:8081/usuario",
-        "url": "http://localhost:8081/usuarios",
+        "url": "http://localhost:8081/usuario",
         "method": "POST",
         "sortNum": 0,
         "created": "2023-09-14T03:56:12.624Z",
-        "modified": "2023-09-29T13:49:31.770Z",
+        "modified": "2023-10-03T13:43:03.421Z",
         "headers": [],
         "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\":\"Brayan\",\n  \"apellido\":\"De Leon\",\n  \"edad\":21,\n  \"correo\":21\n}",
+            "form": []
+        },
         "tests": []
     },
     {

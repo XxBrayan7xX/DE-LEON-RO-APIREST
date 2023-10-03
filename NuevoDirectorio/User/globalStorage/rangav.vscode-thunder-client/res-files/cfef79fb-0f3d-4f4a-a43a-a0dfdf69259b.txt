@@ -1,1 +1,11 @@
-{}
+{
+  "errors": [
+    {
+      "type": "field",
+      "value": 21,
+      "msg": "Invalid value",
+      "path": "correo",
+      "location": "body"
+    }
+  ]
+}
