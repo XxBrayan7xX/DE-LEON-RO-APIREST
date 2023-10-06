@@ -23,15 +23,15 @@
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 42,
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///c%3A/wamp64/www/DELEONRO",
             "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\b6a8cbfbdb4ef682f4debf448a6ee9f7",
             "uiState": {
                 "mode": 0,
-                "x": 792,
-                "y": 40,
+                "x": 720,
+                "y": 0,
                 "width": 800,
                 "height": 824
             }
@@ -41,7 +41,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
