@@ -3,9 +3,11 @@
     "profileAssociations": {
         "workspaces": {
             "file:///c%3A/Users/mayra/Documents/9no%20Semestre/API%20REST/DELEONRO": "__default__profile__",
-            "file:///c%3A/wamp64/www/DELEONRO/Parcial2": "__default__profile__",
             "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma": "__default__profile__",
-            "file:///c%3A/wamp64/www/DELEONRO": "__default__profile__"
+            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/DJango": "__default__profile__",
+            "file:///c%3A/wamp64/www/DELEONRO": "__default__profile__",
+            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flasck": "__default__profile__",
+            "file:///c%3A/wamp64/www/DELEONRO/Parcial2": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -15,10 +17,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma"
+                "folderUri": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flasck"
             },
             {
-                "folderUri": "file:///c%3A/wamp64/www/DELEONRO"
+                "folderUri": "file:///c%3A/wamp64/www/DELEONRO/Parcial2"
             }
         ],
         "emptyWindows": []
@@ -26,13 +28,13 @@
     "windowControlHeight": 42,
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/wamp64/www/DELEONRO",
-            "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\b6a8cbfbdb4ef682f4debf448a6ee9f7",
+            "folder": "file:///c%3A/wamp64/www/DELEONRO/Parcial2",
+            "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\4ef1f7275fe2d09c1cf159d8a3d9958e",
             "uiState": {
                 "mode": 0,
-                "x": 720,
+                "x": 732,
                 "y": 0,
-                "width": 800,
+                "width": 776,
                 "height": 824
             }
         },
@@ -58,7 +60,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 222,
             "statusBarHeight": 22,
             "windowBorder": false
         }

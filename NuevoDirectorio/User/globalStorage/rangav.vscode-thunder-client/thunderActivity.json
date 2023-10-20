@@ -23,13 +23,18 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:8081/usuarios",
-        "url": "http://localhost:8081/usuarios/19100000",
-        "method": "GET",
+        "url": "http://localhost:8081/clientes",
+        "method": "POST",
         "sortNum": 0,
         "created": "2023-09-14T03:56:47.992Z",
-        "modified": "2023-10-05T13:58:06.216Z",
+        "modified": "2023-10-16T13:53:31.938Z",
         "headers": [],
         "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"usuario\":\"Brayn\",\n  \"password\":\"dmin123\",\n  \"confirmar_password\":\"dmin123\",\n  \"noombre\":\"Brayan\", \n  \"edad\":18, \n  \"calle\":\"Lomas 3454\", \n  \"ciudad\":\"Laredo\",\n  \"fecha_registro\":\"2023-08-20\"\n  \n}",
+            "form": []
+        },
         "tests": []
     },
     {
@@ -89,6 +94,29 @@
         "auth": {
             "type": "bearer",
             "bearer": "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"
+        },
+        "tests": []
+    },
+    {
+        "_id": "2385928b-3cce-4ba5-91c8-a3334763a14c",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8082/",
+        "url": "https://localhost:8082",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-10-19T12:52:42.670Z",
+        "modified": "2023-10-20T13:30:48.737Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"user\": \"admin\",\n  \"pass\": \"admin\"\n}",
+            "form": []
+        },
+        "auth": {
+            "type": "bearer",
+            "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2OTc4MDg1NjZ9.9o4xw9FrkGKeqq-604VUN0h7xpw0_bVLWzUz9VwHhqA"
         },
         "tests": []
     }

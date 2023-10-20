@@ -1,29 +1,57 @@
 [
     {
-        "_id": "baa3dd9c-8d4d-47ff-9d40-736b51a05d01",
+        "_id": "2385928b-3cce-4ba5-91c8-a3334763a14c",
         "colId": "history",
-        "created": "2023-10-05T13:47:50.944Z",
-        "modified": "2023-10-05T14:00:26.517Z",
+        "created": "2023-10-20T12:58:22.295Z",
+        "modified": "2023-10-20T13:30:48.741Z",
         "response": {
             "responseText": "",
             "filePath": "",
-            "type": "text",
-            "headers": [],
+            "type": "html",
+            "headers": [
+                {
+                    "name": "x-powered-by",
+                    "value": "Express"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/html; charset=utf-8"
+                },
+                {
+                    "name": "content-length",
+                    "value": "42"
+                },
+                {
+                    "name": "etag",
+                    "value": "W/\"2a-DXtNfznktzuDNJaUB6eRZiBecxY\""
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 20 Oct 2023 13:30:48 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
             "cookies": [],
             "testResults": [],
-            "url": "http://localhost:8081/usuarios/19100000",
-            "status": 0,
-            "statusText": "",
-            "contentType": "",
-            "contentLength": "",
-            "responseTimeText": "0 ms",
-            "responseTime": 0,
-            "responseSize": 0,
-            "errorMessage": "Connection was forcibly closed by a peer."
+            "url": "https://localhost:8082",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": "42 Bytes",
+            "responseTimeText": "28 ms",
+            "responseTime": 28,
+            "responseSize": 42
         },
         "requestInfo": {
-            "reqUrl": "http://localhost:8081/usuarios/19100000",
+            "reqUrl": "https://localhost:8082",
             "headers": [
+                {
+                    "name": "content-length",
+                    "value": "40"
+                },
                 {
                     "name": "accept-encoding",
                     "value": "gzip, deflate, br"
@@ -35,8 +63,18 @@
                 {
                     "name": "User-Agent",
                     "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2OTc4MDg1NjZ9.9o4xw9FrkGKeqq-604VUN0h7xpw0_bVLWzUz9VwHhqA"
                 }
-            ]
+            ],
+            "body": "{\n  \"user\": \"admin\",\n  \"pass\": \"admin\"\n}",
+            "type": "json"
         }
     }
 ]

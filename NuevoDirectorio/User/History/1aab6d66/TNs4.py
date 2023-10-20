@@ -1,0 +1,19 @@
+from app import db
+class Persona(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    nombre = db.Column(db.String(250))
+    apellido = db.Column(db.String(250))
+    email = db.Column(db.String(250))##formulrios
+
+class Producto(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    descripcion = db.Column(db.String(255))
+    precio = db.Column(db.String(255))
+    nombre = db.Column(db.String(255))##
+
+class Images(db.Model):
+    __tablename__="imgenes"
+    id=db.Column(db.Integer,primary_key=True)
+    type = db.Colum(db.String(255), nullable=False)
+    data=db.Column(db.LargeBinary, nullable = False)
+    renderData=db.Columns(db.Text, nullable = False)
