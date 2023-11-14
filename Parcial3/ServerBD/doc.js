@@ -8,22 +8,39 @@ var cors = require('cors');
 // const bearerToken = require('express-bearer-token');
 const swaggerUI = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
-  var app = express()
 
-  
-  const swaggerOptions = {
-    definition: {
-    openapi: '3.0.0',
-    info: {
-    title: 'API Empleados',
-    version: '1.0.0',
-    },
-    servers:[
-    {url: "http://localhost:8083"}
-    ],
-    },
-    apis: [`${path.join(__dirname,"doc.js")}`],
-    };
+const { SwaggerTheme } = require('swagger-themes');
+const theme = new SwaggerTheme('v3');
+
+const options = {
+  explorer: true,
+  customCss: theme.getBuffer('feeling-blue')
+};
+
+var app = express()
+app.use(cors);
+const def = fs.readFileSync(path.join(__dirname,'./swagger.json'),
+  {encoding: 'utf-8', flag:'r'});
+const defObj = JSON.parse(def);
+
+const swaggerOptions = {
+  definition:defObj,
+  apis: [`${path.join(__dirname,"doc.js")}`],
+}
+
+  // const swaggerOptions = {
+  //   definition: {
+  //   openapi: '3.0.0',
+  //   info: {
+  //   title: 'API Empleados',
+  //   version: '1.0.0',
+  //   },
+  //   servers:[
+  //   {url: "http://localhost:8083"}
+  //   ],
+  //   },
+  //   apis: [`${path.join(__dirname,"doc.js")}`],
+  //   };
 
 app.use(cors());
 // create a write stream (in append mode)
@@ -42,6 +59,19 @@ app.use(cors());
 // }))
 
 var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
+/**
+ * @swagger
+ * /usuarios/:
+ *   get:
+ *     tags:
+ *       - usuario
+ *     summary: Consultar todos los usuarios
+ *     description: Obtiene un JSON conteniendo todos los usuarios de la BD
+ *     responses:
+ *       200:
+ *         description: Regresa un JSON conteniendo todos los usuarios de la BD
+ */
+
  
 app.get("/usuarios", async(req,res)=>{
   req.token
@@ -81,7 +111,11 @@ app.use((err,req,res,next)=>{
   res.send({Error: err.message})
 })
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
-app.use("/api-docs",swaggerUI.serve,swaggerUI.setup(swaggerDocs));
+app.use("/api-docs",swaggerUI.serve,swaggerUI.setup(swaggerDocs,options));
+app.use("/api-docs-json",(req,res)=>{
+  res.json(swaggerDocs);
+});
+
 app.delete("/usuarios", async(req,res)=>{
   console.log(req.query)
   try {

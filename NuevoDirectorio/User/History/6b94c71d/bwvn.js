@@ -1,0 +1,127 @@
+const express = require('express');
+const morgan = require('morgan');
+const fs = require('fs')
+const path = require('path');
+var mysql = require('mysql2');
+var cors = require('cors');
+// const basicAuth = require('express-basic-auth')
+// const bearerToken = require('express-bearer-token');
+const swaggerUI = require('swagger-ui-express');
+const swaggerJsDoc = require('swagger-jsdoc');
+  var app = express()
+
+  
+  const swaggerOptions = {
+    definition: {
+    openapi: '3.0.0',
+    info: {
+    title: 'API Empleados',
+    version: '1.0.0',
+    },
+    servers:[
+    {url: "http://localhost:8083"}
+    ],
+    },
+    apis: [`${path.join(__dirname,"doc.js")}`],
+    };
+
+app.use(cors());
+// create a write stream (in append mode)
+//app.use(bearerToken());
+//app.use(function (req, res) {
+  //res.send('miTOken '+req.token);
+//});
+
+
+
+
+
+
+// app.use(basicAuth({
+//   users: { 'admin': '1234' }
+// }))
+
+var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
+/**
+ * @swagger
+ * /usuarios/:
+ *   get:
+ *     tags:
+ *       - usuario
+ *     summary: Consultar todos los usuarios
+ *     description: Obtiene un JSON conteniendo todos los usuarios de la BD
+ *     responses:
+ *       200:
+ *         description: Regresa un JSON conteniendo todos los usuarios de la BD
+ */
+
+ 
+app.get("/usuarios", async(req,res)=>{
+  req.token
+  try {
+    const conn = await mysql.createConnection({host:'localhost',user:'prueba',password:'prueba',database:'serverbd', port: 3307})
+    const [rows, fields] = await conn.promise().query('SELECT * FROM ALUMNOS')
+    res.json(rows)
+  } catch (err){
+    //console.log(err)
+    res.status(500).json({mensaje:err.sqlMessage})
+  }
+
+
+
+})
+ app.get("/usuarios/:id", async(req,res,next)=>{
+  try{
+  console.log(req.params.id)
+  const conn = await mysql.createConnection({host:'localhost',user:'prueba',password:'prueba',database:'serverbd', port:3307})
+  const [rows, fields] = await conn.promise().query('SELECT * FROM ALUMNOS where matricula='+req.params.id)
+  if(rows.length==0){
+    //res.status(404).json({mensaje:"el usuario no existe"})
+    let e = new Error("Error del lado de usuario, id inexistente.")
+    next(e)
+  }
+  else{
+    res.json(rows)
+  }
+}
+catch{
+  let e = new Error("No es posible establecer la conexion")
+  next(e)
+}
+})
+app.use((err,req,res,next)=>{
+  res.status(500)
+  res.send({Error: err.message})
+})
+const swaggerDocs = swaggerJsDoc(swaggerOptions);
+app.use("/api-docs",swaggerUI.serve,swaggerUI.setup(swaggerDocs));
+app.delete("/usuarios", async(req,res)=>{
+  console.log(req.query)
+  try {
+    const conn = await mysql.createConnection({host:'localhost',user:'prueba',password:'prueba',database:'serverbd', port: 3307})
+    const [rows, fields] = await conn.promise().query(`delete FROM ALUMNOS WHERE Matricula = ${req.query.idUsuario}`)
+    if(rows.affectedRows==0){
+      res.json({mensaje:"Registro no eliminado"})
+    }else{res.json({mensaje: "Alumno eliminado"})}
+
+    //res.json(rows)
+  } catch (err){
+    res.status(500).json({mensaje:err.sqlMessage})
+  }
+})
+
+app.patch("/usuarios")
+
+app.use(express.json())
+app.get("/alumnos", (req,res)=>{
+    res.send("servidor express contestando a peticion get")
+})
+app.post("/alumnos", (req,res)=>{
+    res.send("servidor express contestando a peticion post")
+})
+
+
+app.listen(8081,(req,res)=>{
+    console.log("El servidor express esta escuchando...")
+})
+

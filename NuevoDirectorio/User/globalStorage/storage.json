@@ -9,6 +9,7 @@
             "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/DJango": "__default__profile__",
             "file:///c%3A/wamp64/www/DELEONRO/Parcial2": "__default__profile__",
             "file:///c%3A/wamp64/www/DELEONRO": "__default__profile__",
+            "file:///c%3A/wamp64/www/DELEONRO/Parcial3": "__default__profile__",
             "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0": "__default__profile__"
         },
         "emptyWindows": {}
@@ -19,24 +20,21 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/wamp64/www/DELEONRO"
-            },
-            {
                 "folderUri": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0"
             }
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 42,
+    "windowControlHeight": 35,
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0",
             "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\4d636f644a5e06cb6748b21b4d526a61",
             "uiState": {
                 "mode": 0,
-                "x": 732,
+                "x": 773,
                 "y": 0,
-                "width": 776,
+                "width": 779,
                 "height": 824
             }
         },
@@ -45,7 +43,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 1,
+        "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -62,7 +60,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 222,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

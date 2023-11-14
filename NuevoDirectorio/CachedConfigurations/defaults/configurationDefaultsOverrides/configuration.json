@@ -1,1 +1,1 @@
-{"python.createEnvironment.contentButton":"hide","python.analysis.persistAllIndices":true,"python.analysis.gotoDefinitionInStringLiteral":true,"editor.experimental.asyncTokenization":true}
+{"editor.experimental.asyncTokenization":true,"workbench.accounts.experimental.showEntitlements":true,"python.createEnvironment.contentButton":"hide","python.createEnvironment.trigger":"prompt","python.analysis.persistAllIndices":true,"python.analysis.gotoDefinitionInStringLiteral":true}
