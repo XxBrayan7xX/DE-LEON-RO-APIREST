@@ -119,5 +119,19 @@
             "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2OTc4MDg1NjZ9.9o4xw9FrkGKeqq-604VUN0h7xpw0_bVLWzUz9VwHhqA"
         },
         "tests": []
+    },
+    {
+        "_id": "a4d61aea-b9dd-4e49-84c6-511e9b5be774",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8087/usuarios",
+        "url": "http://localhost:8087/usuarios",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-11-24T14:49:54.290Z",
+        "modified": "2023-11-24T14:49:54.290Z",
+        "headers": [],
+        "params": [],
+        "tests": []
     }
 ]

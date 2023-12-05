@@ -10,7 +10,9 @@
             "file:///c%3A/wamp64/www/DELEONRO/Parcial2": "__default__profile__",
             "file:///c%3A/wamp64/www/DELEONRO": "__default__profile__",
             "file:///c%3A/wamp64/www/DELEONRO/Parcial3": "__default__profile__",
-            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0": "__default__profile__"
+            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Nivelacion": "__default__profile__",
+            "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0": "__default__profile__",
+            "file:///c%3A/wamp64/www/DELEONRO/Parcial3/REST": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -21,6 +23,9 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0"
+            },
+            {
+                "folderUri": "file:///c%3A/wamp64/www/DELEONRO/Parcial3/REST"
             }
         ],
         "emptyWindows": []
@@ -28,13 +33,13 @@
     "windowControlHeight": 35,
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/mayra/Documents/9no%20Semestre/Multiparadigma/Flask%203.0",
-            "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\4d636f644a5e06cb6748b21b4d526a61",
+            "folder": "file:///c%3A/wamp64/www/DELEONRO/Parcial3/REST",
+            "backupPath": "C:\\wamp64\\www\\DELEONRO\\NuevoDirectorio\\Backups\\f6cc5fc3d581d699be677b8e0d5672ed",
             "uiState": {
                 "mode": 0,
-                "x": 773,
+                "x": 768,
                 "y": 0,
-                "width": 779,
+                "width": 768,
                 "height": 824
             }
         },
@@ -43,7 +48,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": -1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -58,7 +63,7 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
+            "titleBarHeight": 42,
             "activityBarWidth": 48,
             "sideBarWidth": 170,
             "statusBarHeight": 22,
